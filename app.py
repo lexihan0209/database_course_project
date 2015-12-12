@@ -105,7 +105,7 @@ def all_done():
 
 
 if __name__ == "__main__":
-    run(host='localhost', port=9090, reloader=True)
+    run(host='localhost', port=8080, reloader=True)
 else:
     application = default_app()
 
